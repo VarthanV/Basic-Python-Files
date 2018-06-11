@@ -9,4 +9,4 @@ class Admin(User):
 			for prop in priv:
 				print(prop)
 		else:
-			print("no homie")				
+			print("no homie no previliges for u")				
