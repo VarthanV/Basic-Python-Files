@@ -1,0 +1,9 @@
+import logging as log 
+log.basicConfig(level=log.DEBUG,format='%(asctime)s-%(message)s-cool')
+log.debug("A program has started")
+for i in range(1,6):
+    print("hi")
+    log.debug("It is being printed"+ str(i) +"time")
+log.debug("over")
+log.warning("Test warning homie's")
+log.disable(log.CRITICAL)
