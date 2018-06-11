@@ -1,0 +1,2 @@
+import webbrowser as browser
+
